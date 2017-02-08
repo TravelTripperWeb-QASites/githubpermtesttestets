@@ -29,7 +29,7 @@
     "hide test test test": 
     {
       "type" : "bool", 
-      "label": "Hide"
+      "label": "Hide test test test"
     } , 
     "sort_order": 
     { 
