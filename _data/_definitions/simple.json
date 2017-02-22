@@ -14,26 +14,5 @@
     {
       "required": true,  
       "label": "Button Text"
-    },
-    "button_link":
-    {
-      "required": true,  
-      "label": "Url"
-    },  
-    "item_image":
-    {
-      "required": true,  
-      "type": "image",
-      "label": "Upload Image"   
-    }, 
-    "hide test test test": 
-    {
-      "type" : "bool", 
-      "label": "Hide test test test"
-    } , 
-    "sort_order": 
-    { 
-      "type": "integer",
-      "required": true 
     }
 }
