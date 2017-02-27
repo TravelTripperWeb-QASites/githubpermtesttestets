@@ -30,6 +30,7 @@ module Jekyll
     end
 
     def create_json_files(folder, file_name = 'models')
+      return unless File.directory? folder
       sub_folders = Dir.entries("#{folder}/").select { |entry| File.directory? File.join(folder, entry) and !(entry == '.' || entry == '..') }
       if sub_folders.empty?
         json = Dir[File.join(folder, '*.json')].map { |f| JSON.parse File.read(f) }.flatten
